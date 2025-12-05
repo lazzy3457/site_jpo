@@ -5,3 +5,9 @@ Le site pour la SAE 3.01 (front) et 3.03(back), qui sera le site des journée po
 - Assets regroupe les fichier pour le front-end : img, js et css
 
 loic est present
+ou pas
+ahhhh
+les baananes sont des coléoptères
+je suis gay
+et une femme
+uwu

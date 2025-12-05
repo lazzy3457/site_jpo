@@ -6,7 +6,6 @@ Le site pour la SAE 3.01 (front) et 3.03(back), qui sera le site des journée po
 
 loic est present
 ou pas
-ahhhh
 les baananes sont des coléoptères
 je suis gay
 et une femme

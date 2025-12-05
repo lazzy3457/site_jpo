@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livre d'Or - Messages Validés</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="controls-bar">
+        <div class="filter-group role-humeur-filters">
+            <button class="filter-btn active" data-filter-type="role" data-filter-value="Tous">Commenter</button>
+            <button class="filter-btn" data-filter-type="humeur" data-filter-value="happy">😊</button>
+            <button class="filter-btn" data-filter-type="humeur" data-filter-value="neutral">😐</button>
+            <button class="filter-btn" data-filter-type="role" data-filter-value="role">Rôle</button>
+        </div>
+        
+        <div class="pole-bar dev-bar" data-filter-type="pole" data-filter-value="DEV">DEV</div>
+        <div class="pole-bar strat-bar" data-filter-type="pole" data-filter-value="STRAT">STRAT</div>
+        <div class="pole-bar crea-bar" data-filter-type="pole" data-filter-value="CREA">CREA</div>
+    </header>
+
+    <main class="message-container">
+        </main>
+
+    <footer class="pagination-footer">
+        <div class="pagination-controls">
+            <button id="prev-page" class="nav-arrow"><i class="fas fa-arrow-left"></i></button>
+            <button id="next-page" class="nav-arrow"><i class="fas fa-arrow-right"></i></button>
+        </div>
+        
+        <div class="filter-group note-filters">
+            <span class="filter-note-label">Note:</span>
+            <div id="star-filter" data-filter-type="note">
+                <i class="fas fa-star" data-note="5"></i>
+                <i class="fas fa-star" data-note="4"></i>
+                <i class="fas fa-star" data-note="3"></i>
+                <i class="fas fa-star" data-note="2"></i>
+                <i class="fas fa-star" data-note="1"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
